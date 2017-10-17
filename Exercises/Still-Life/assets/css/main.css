@@ -1,0 +1,195 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+/*#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	right: 250px;
+}
+*/
+#square2{
+
+	width: 500px;
+	height: 350px;
+	background: yellow;
+	top: 190px;
+	left: 200px;
+	opacity: 0.3;
+	position: absolute;
+	-webkit-clip-path: polygon(50% 14%, 100% 45%, 42% 64%, 0 30%);
+	clip-path: polygon(50% 14%, 100% 45%, 42% 64%, 0 30%);
+
+}
+
+#egg {
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: red;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius: 75%  50%  50%  50%  / 60%   60%   40%  40%;   
+   top: 100px;
+   left: 300px;
+   position: absolute;
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#stem{
+	width: 100px;
+	height: 120px;
+	top: 120px;
+   	left: 360px;
+  	position: absolute;
+	background-color: green;
+    -webkit-clip-path: polygon(58% 18%, 73% 15%, 73% 22%, 61% 27%, 56% 32%, 46% 48%, 35% 71%, 26% 71%, 46% 32%);
+    clip-path: polygon(58% 18%, 73% 15%, 73% 22%, 61% 27%, 56% 32%, 46% 48%, 35% 71%, 26% 71%, 46% 32%);
+}
+
+#flower{
+	width: 100px;
+	height: 120px;
+	top: 90px;
+   	left: 410px;
+  	position: absolute;
+	background-color: yellow;
+	-webkit-clip-path: polygon(41% 0, 42% 20%, 65% 15%, 53% 33%, 69% 41%, 60% 63%, 74% 74%, 26% 77%, 10% 46%);
+	clip-path: polygon(41% 0, 42% 20%, 65% 15%, 53% 33%, 69% 41%, 60% 63%, 74% 74%, 26% 77%, 10% 46%);
+     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#leaf{
+    width: 70px;
+	height: 90px;
+	top: 130px;
+   	left: 400px;
+  	position: absolute;
+	background-color: green;
+    -webkit-clip-path: polygon(39% 15%, 54% 25%, 59% 39%, 42% 33%, 32% 32%, 23% 37%, 5% 66%, 11% 43%, 20% 25%);
+    clip-path: polygon(39% 15%, 54% 25%, 59% 39%, 42% 33%, 32% 32%, 23% 37%, 5% 66%, 11% 43%, 20% 25%);
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+}
+
+#square {
+	width: 15px;
+	height: 15px;
+	background: maroon;
+	top: 260px;
+	left: 355px;
+	position: absolute;
+
+
+	/* uncomment to add keyframe animation 
+	/* animation: spin 2s infinite; */
+
+}
+
+/*#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}*/
+
+#vase {
+	width: 100px;
+	height: 120px;
+	background-color: orange;
+	position: absolute;
+	top: 200px;
+	left: 335px;    
+    -webkit-clip-path: polygon(42% 0, 71% 0, 79% 100%, 20% 100%);
+    clip-path: polygon(42% 0, 71% 0, 79% 100%, 20% 100%);
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+#banana{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	position: absolute;
+	top: 160px;
+	left: 320px;
+	-webkit-clip-path: polygon(51% 70%, 75% 63%, 90% 59%, 85% 73%, 72% 82%, 55% 87%, 33% 84%, 10% 74%, 13% 62%, 29% 65%);
+    clip-path: polygon(51% 70%, 75% 63%, 90% 59%, 85% 73%, 72% 82%, 55% 87%, 33% 84%, 10% 74%, 13% 62%, 29% 65%);
+}
+
+#blackbanana{
+	width: 10px;
+	height: 10px;
+	background: black;
+	top: 275px;
+	left: 490px;
+	position: absolute;
+}
+
+#clip {
+	/*width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+*/
+	/* uncomment for css transitions 
+	/* transition: all 400ms ease; */
+}
+
+#pom {
+	width: 60px;
+	height: 60px;
+	background: red;
+	border-radius: 30px;
+	position: absolute;
+	top: 270px;
+	left: 330px;
+	box-shadow: -10px 5px 10px #888888;
+}
+
+/* animations */
+
+
+/*#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+*/
