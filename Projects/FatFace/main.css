@@ -11,7 +11,7 @@ body {
 
 #alphabet{
 	width: 800px;
-	background: /*#cccccc*/blue;
+	background: #cccccc;
 	overflow: auto;
 }
 
