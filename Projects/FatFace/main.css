@@ -1,0 +1,935 @@
+body {
+	background: #cccccc;
+	display: inline;
+}
+
+/*.container{
+	width: 525px;
+	height: 575px;
+	float: left;
+}*/
+
+#alphabet{
+	width: 800px;
+	background: /*#cccccc*/blue;
+	overflow: auto;
+}
+
+#alphabet:hover .letterform_B, #alphabet:hover .letterform_Y{
+	background: red;
+}
+
+[class^="letterform"]{
+	position: relative;
+	transition: all 500ms ease;
+	top: 10px;
+
+}
+
+[class^="letterform"] div{
+	transition: all 1500ms ease;
+}
+
+.letterform_A
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+}
+#A_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 30px;
+	left: 45px;
+	float: left;
+}
+#A_rec{
+	width: 5px;
+	height: 53px;
+	background: #cccccc;
+	position: absolute;
+	left: 70px;
+	top: 140px;
+}
+
+.letterform_A:hover
+{
+	width: 300px;
+	height: 300px;
+
+}
+
+.letterform_A:hover #A_circle
+{
+	width: 100px;
+	height: 100px;
+	top: 90px;
+	left: 110px;
+}
+
+.letterform_A:hover #A_rec
+{
+	width: 10px;
+	height: 53px;
+	top: 250px;
+	left: 150px;
+}
+
+/* letter B */
+
+.letterform_B
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 0px 50px 50px 0px;
+	float: left;
+	margin-left: 10px;
+}
+
+#B_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 100px;
+	left: 50px;
+
+}
+#B_circle2 {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 30px;
+	left: 50px;
+}
+
+/* letter B :hover */
+
+.letterform_B:hover
+{
+	width: 300px;
+	height: 300px;
+
+}
+
+.letterform_B:hover #B_circle
+{
+	width: 80px;
+	height: 80px;
+	top: 60px;
+	left: 100px;
+}
+
+.letterform_B:hover #B_circle2
+{
+	width: 80px;
+	height: 80px;
+	top: 180px;
+	left: 100px;
+}
+
+/* letter C */
+
+.letterform_C
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+#C_rec{
+	width: 75px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 10px 0px 0px 10px;
+	left: 50px;
+	top: 61px;
+}
+
+.letterform_C:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+.letterform_C:hover #C_rec
+{
+	width: 135px;
+	height: 125px;
+	background: #cccccc;
+	border-radius: 20px 0px 0px 20px;
+	left: 190px;
+	top: 90px;
+	position: relative;
+}
+
+.letterform_D
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+	margin-left: 10px;
+}
+#D_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 100px;
+	left: 50px;
+}
+
+.letterform_D:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+.letterform_D:hover #D_circle
+{
+	width: 100px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 150px;
+	left: 150px;
+}
+
+.letterform_E
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+	margin-left: 10px;
+}
+#E_rec{
+	width: 75px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 10px 0px 0px 10px;
+	left: 50px;
+	top: 90px;
+}
+#E_rec2{
+	width: 72px;
+	height: 10px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+	left: 50px;
+	top: 110px;
+}
+
+.letterform_E:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+.letterform_E:hover #E_rec
+{
+	width: 150px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 150px;
+	left: 150px;
+}
+
+.letterform_E:hover #E_rec2
+{
+	width: 144px;
+	height: 20px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 300px;
+	left: 300px;
+}
+
+/*Fix this F form!*/
+.letterform_F 
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+	margin-left: 10px;
+}
+#F_rec{
+	width: 75px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 10px 0px 0px 10px;
+	left: 590px;
+	top: 90px;
+}
+#F_rec3{
+	width: 72px;
+	height: 10px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+	left: 590px;
+	top: 110px;
+}
+
+.letterform_G
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 50px 50px 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.letterform_G:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+#G_rec{
+	width: 60px;
+	height: 70px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 10px 0px 0px 10px;
+	left: 65px;
+	top: 40px;
+}
+#G_rec2{
+	width: 30px;
+	height: 40px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 10px 10px 0px 0px;
+	left: 95px;
+	top: 90px;
+}
+
+.letterform_G:hover #G_rec
+{
+	width: 120px;
+	height: 140px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 10px 10px 0px 0px;
+	left: 190px;
+	top: 70px;
+}
+
+.letterform_G:hover #G_rec2
+{
+	width: 60px;
+	height: 100px;
+	background: black;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 150px;
+	left: 240px;
+}
+
+.letterform_H
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.letterform_H:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+#H_rec{
+	width: 5px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+	left: 65px;
+	top: 0px;
+}
+#H_rec2{
+	width: 5px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+	left: 65px;
+	top: 125px;
+}
+
+.letterform_H:hover #H_rec
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px;
+	left: 150px;
+	top: 0px;
+}
+
+.letterform_H:hover #H_rec2
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 0px;
+	top: 200px;
+	left: 150px;
+}
+
+.letterform_I
+{
+	width: 90px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.letterform_I:hover
+{
+	width: 180px;
+	height: 350px;
+}
+
+.letterform_J
+{
+	width: 90px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 50px;
+	top: 10px;
+}
+
+.letterform_J:hover
+{
+	width: 180px;
+	height: 350px;
+}
+
+#J_rec{
+	width: 80px;
+	height: 80px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 0px 0px 20px;
+	left: -42px;
+	top: 95px;
+}
+
+.letterform_J:hover #J_rec
+{
+	width: 160px;
+	height: 160px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 0px 0px 20px;
+	left: -80px;
+	top: 190px;
+}
+
+.letterform_K
+{
+	width: 90px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 0px 10px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.letterform_K:hover
+{
+	width: 180px;
+	height: 350px;
+}
+
+#K_rec{
+	width: 50px;
+	height: 80px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 10px 10px 0px;
+	left: 83px;
+	top: 95px;
+}
+
+#K_rec2{
+	width: 60px;
+	height: 60px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 10px 10px 0px;
+	left: 64px;
+	top: 40px;
+	 -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+    transform: rotate(-40deg);
+}
+
+#K_rec3{
+	width: 5px;
+	height: 70px;
+	background: #cccccc;
+	position: absolute;
+	left: 80px;
+	top: 117px;
+}
+
+.letterform_K:hover #K_rec
+{
+	width: 80px;
+	height: 100px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 20px 20px 20px;
+	left: 170px;
+	top: 250px;
+}
+
+.letterform_K:hover #K_rec2
+{
+	width: 160px;
+	height: 160px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 20px 20px 20px;
+	left: 100px;
+	top: 90px;
+}
+
+.letterform_K:hover #K_rec3
+{
+	width: 10px;
+	height: 60px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px 0px 0px 0px;
+	left: 170px;
+	top: 290px;
+}
+
+
+.letterform_L
+{
+	width: 70px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 0px 0px 10px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+.letterform_L:hover
+{
+	width: 180px;
+	height: 350px;
+}
+
+#L_rec{
+	width: 50px;
+	height: 90px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 0px 15px 0px;
+    left: 69px;
+    top: 85px;
+}
+
+.letterform_M
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.letterform_M:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+#M_rec{
+	width: 5px;
+	height: 53px;
+	background: #cccccc;
+	position: absolute;
+	left: 41px;
+	top: 122px;
+}
+#M_rec2{
+	width: 5px;
+	height: 53px;
+	background: #cccccc;
+	position: absolute;
+	left: 85px;
+	top: 122px;
+}
+
+.letterform_M:hover #M_rec
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px;
+	left: 100px;
+	top: 200px;
+}
+
+.letterform_M:hover #M_rec2
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 0px;
+	top: 200px;
+	left: 190px;
+}
+
+.letterform_N
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_N:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+#N_rec{
+	width: 5px;
+	height: 53px;
+	background: #cccccc;
+	position: absolute;
+	left: 47px;
+	top: 122px;
+}
+
+#N_rec2{
+	width: 5px;
+	height: 53px;
+	background: #cccccc;
+	position: absolute;
+	left: 85px;
+	top: 0px;
+}
+
+.letterform_N:hover #N_rec
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px;
+	left: 100px;
+	top: 200px;
+}
+
+.letterform_N:hover #N_rec2
+{
+	width: 10px;
+	height: 100px;
+	background: #cccccc;
+	position: absolute;
+	border-radius: 0px;
+	left: 180px;
+	top: 0px;
+}
+
+
+.letterform_O
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_O:hover
+{
+	width: 300px;
+	height: 300px;
+}
+
+#O_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 59px;
+	left: 40px;
+}
+
+.letterform_O:hover #O_circle
+{
+	width: 100px;
+	height: 100px;
+	top: 100px;
+	left: 100px;
+}
+
+.letterform_P
+{
+	width: 85px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_P:hover
+{
+	width: 180px;
+	height: 350px;
+}
+
+#P_rec{
+	width: 80px;
+	height: 80px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 50px 0px 0px;
+	left: 60px;
+	top: 0px;
+}
+
+.letterform_P:hover #P_rec
+{
+	width: 150px;
+	height: 150px;
+	top: 0px;
+	left: 100px;
+}
+
+#P_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 20px;
+	left: 45px;
+}
+
+
+.letterform_P:hover #P_circle
+{
+	width: 75px;
+	height: 75px;
+	top: 20px;
+	left: 130px;
+}
+
+.letterform_Q
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#Q_circle {
+	width: 50px;
+	height: 50px;
+	background: #cccccc;
+	position: absolute;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+	top: 270px;
+	left: 897px;
+}
+
+#Q_square{
+	width: 50px;
+	height: 55px;
+	background: /*#cccccc*/black;
+	position: absolute;
+	border-radius: 0px 10px 10px 0px;
+	left: 945px;
+	top: 324px;
+}
+
+.letterform_R
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_S
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_T
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_U
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_V
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_W
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_X
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_Y
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.letterform_Z
+{
+	width: 125px;
+	height: 175px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
